@@ -1,0 +1,12 @@
+name: GitHub Workflow Commands Test
+on: [push]
+jobs:
+  Workflow-commands-example:steps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Group of log lines
+        run: |
+           echo "::debug::Testing debug command"
+           echo "::group::Test title"
+           echo "Inside group"
+           echo "::endgroup::"
