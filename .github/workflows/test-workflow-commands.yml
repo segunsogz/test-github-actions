@@ -4,7 +4,7 @@ jobs:
   Workflow-commands-example:steps:
     runs-on: ubuntu-latest
     steps:
-      - name: Group of log lines
+      - name: Group of log lines test
         run: |
            echo "::debug::Testing debug command"
            echo "::group::Test title"
