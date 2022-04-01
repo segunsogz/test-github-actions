@@ -1,7 +1,7 @@
 name: GitHub Workflow Commands Test
 on: [push]
 jobs:
-  Workflow-commands-example:steps:
+  Workflow-commands-example-steps:
     runs-on: ubuntu-latest
     steps:
       - name: Group of log lines test
